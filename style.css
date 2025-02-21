@@ -1,0 +1,106 @@
+
+
+body{
+    background-color: rgb(170, 255, 200);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+header{
+    background-color: green ;
+    padding-top: 10px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.437);
+}
+
+
+main{
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 10px 10px rgba(128, 128, 128, 0.478);
+}
+@font-face{
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+h1, h2{
+    font-family: 'idroid';
+    color: green;
+}
+
+#titulo-1{
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+
+nav > a{
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    transition: color 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    color: greenyellow;
+}
+h3{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+h2{
+    background-color: rgba(185, 255, 80, 0.696);
+}
+
+    .bug {
+    display: flex;
+    justify-content: center;
+    }
+
+   #conteudo{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    }
+
+    section{
+        background-color: green;
+        height: 400px;
+    }
+
+    ul{
+        display: inline-table;
+        padding-left: 170px;
+    }
+
+    .inDIVidado{
+        background-color: rgba(170, 255, 200, 0.544);
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.632);
+    }
+
+    .text-1{
+        background-color: rgba(45, 148, 45, 0.493);
+        border-radius: 10px 10px 0px 0px;
+        height: 30px;
+        color: white;
+        padding-top: 15px;
+        font-weight: bold;
+        padding-left: 5px;
+    }
+
+    footer{
+        background-color: green;
+        text-align: center;
+    }
